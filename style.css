@@ -1,7 +1,9 @@
 body{
     background-color: rgb(112, 94, 61);
 }
-
+a {
+    
+}
 .top-header {
     background-color: hsl(0, 0%, 20%);
     overflow: hidden;
@@ -23,9 +25,8 @@ h1 {
 }
 
 .top-header a:hover {
-    background-color: hsl(0, 0, 80%);
-    color: hsl(20, 20%, 100%);
     transition: color 0.5s;
+    opacity: 0.8;
 }
 
 .gallery img {
